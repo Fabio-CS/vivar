@@ -1,0 +1,54 @@
+/* General settings */
+div.selector, div.selector span {
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased; 
+  font-size:13px;}
+div.selector {
+  display: -moz-inline-box;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+  /* Keeping this as :focus to remove browser styles */ }
+  div.selector:focus{
+    outline: 0; }
+div.selector, div.selector *{
+  margin: 0;
+  padding: 0; }
+
+
+/* Select */
+div.selector {
+  background-position: 0 -53px;
+  line-height: 39px;
+  height: 39px;
+  padding: 0 0 0 10px;
+  position: relative;
+  overflow: hidden; }
+  div.selector span {
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-position: right 0;
+    height: 39px;
+    line-height: 39px;
+    cursor: pointer;
+    width: 100%;
+    display: block; }
+  div.selector.fixedWidth {
+    width: 190px; }
+    div.selector.fixedWidth span {
+      width: 155px; }
+  div.selector select {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    border: none;
+    background: none;
+    position: absolute;
+    height: 22px;
+    top: 2px;
+    left: 10px;
+    width: 100%; }

@@ -1,0 +1,26 @@
+/*!
+ *  Gotham
+ */
+@font-face{
+    font-family:'GothamThin';
+    src:url('../fonts/Gotham/thin/Gotham-Thin.eot?v=4.5.0');
+    src:url('../fonts/Gotham/thin/Gotham-Thin.eot?#iefix&v=4.5.0') format('embedded-opentype'),
+        url('../fonts/Gotham/thin/Gotham-Thin.woff2?v=4.5.0') format('woff2'),
+        url('../fonts/Gotham/thin/Gotham-Thin.woff?v=4.5.0') format('woff'),
+        url('../fonts/Gotham/thin/Gotham-Thin.ttf?v=4.5.0') format('truetype'),
+        url('../fonts/Gotham/thin/Gotham-Thin.svg?v=4.5.0#GothamThin') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'GothamUltra';
+    src:url('../fonts/Gotham/ultra/Gotham-Ultra.eot?v=4.5.0');
+    src:url('../fonts/Gotham/ultra/Gotham-Ultra.eot?#iefix&v=4.5.0') format('embedded-opentype'),
+        url('../fonts/Gotham/ultra/Gotham-Ultra.woff2?v=4.5.0') format('woff2'),
+        url('../fonts/Gotham/ultra/Gotham-Ultra.woff?v=4.5.0') format('woff'),
+        url('../fonts/Gotham/ultra/Gotham-Ultra.ttf?v=4.5.0') format('truetype'),
+        url('../fonts/Gotham/ultra/Gotham-Ultra.svg?v=4.5.0#GothamUltra') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
