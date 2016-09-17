@@ -141,6 +141,7 @@ a{
 .mb-40{margin-bottom: 40px;}
 .mb-55{margin-bottom: 55px;}
 .mb-80{margin-bottom: 80px;}
+.mb-100{margin-bottom: 100px;}
 
 .ml-30{margin-left: 30px;}
 
@@ -339,7 +340,17 @@ a{
 .np5 img{margin-left: -10px;margin-top: -10px;}
 .np6 img{margin-left: -40px;margin-top: -35px;}
 
+#header .nav > li > a {
+    padding: 0px;
+}
 
+#header .nav > li {
+    padding: 0px 11px;
+}
+
+#header .nav > li > a.active {
+    border-bottom: 2px solid #EECA2F;
+}
 /* Dropdown menu */
 /* Dropdown Button */
 
@@ -502,9 +513,10 @@ iframe.mapa-loja{
 
 #newsletter #form_background #form_newsletter label {
     width: 50px;
+    font-weight: normal;
 }
 
-#newsletter #form_background #form_newsletter input {
+#newsletter #form_background #form_newsletter input, #form_franquia input, #form_contato input {
     width: 88%;
     margin-bottom: 5px;
     border: none;
@@ -512,10 +524,10 @@ iframe.mapa-loja{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    padding: 3px;
+    padding: 3px 8px;
 }
 
-#newsletter #form_background #form_newsletter button {
+#newsletter #form_background #form_newsletter button, #form_franquia button, #form_contato .text_left > button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -526,10 +538,137 @@ iframe.mapa-loja{
     float: right;
 }
 
+#form_franquia label {
+    width: 19%;
+    font-weight: normal;
+}
+
+#form_franquia input {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#form_franquia button {
+    float: none;
+    margin-top: 40px;
+}
+
+#form_contato label {
+    width: 27%;
+    font-weight: normal;
+}
+
+#form_contato input {
+    width: 72%;
+    margin-bottom: 10px;
+}
+
+#form_contato .text_left > button {
+    float: none;
+    margin-top: 10px;
+}
+
+#form_contato textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 2px 10px;
+    width: 72%;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+
+#form_contato .btn-group > button.btn.btn-default{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 2px 10px;
+}
+
+.align_top{
+    vertical-align: top;
+}
+
 .nav-products li img {
     width: 120%;
 }
 
+.text_center {
+    text-align: center;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.imagem_banner{
+    text-align: center;
+    width: 100%;
+}
+
+.imagem_banner img{
+    width: 100%;
+}
+
+.title_page h3 > span {
+    border-bottom: 1px solid #000;
+}
+
+.texto_esquerda .title_page > h3 {
+    border-bottom: 1px solid #000;
+    width: 68%;
+    line-height: 1.4;
+}
+
+
+#breadcrumbs > a {
+    color: #000;
+    cursor: pointer;
+}
+
+.texto_esquerda > p{
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.texto_direita > p{
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.texto_centro > p{
+    text-align: justify;
+}
+
+.certificacao{
+    margin-bottom: 30px;
+}
+
+.certificacao .img_selo_cert{
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+    text-align: center;
+}
+
+.certificacao .cert_text{
+    text-align: justify;
+}
+
+#video_empresa{
+    margin-top: 50px;
+    margin-right: 50px;
+}
 @media (min-width: 768px) {
     
 }

@@ -24,6 +24,13 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
         <script type="text/javascript" src="assets/js/jquery.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
+
     </head>
     <body class="home">
         <div id="fb-root"></div>
@@ -55,9 +62,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="menu-top">
                     <ul class="nav navbar-nav">
-                        <li><a href="quem-somos.php">Empresa</a></li>
+                        <li><a href="empresa.php" class="<?=$menu_empresa_ativo?>">Empresa</a></li>
                         <li class="dropdown">
-                            <a class="dropbtn" href="produtos.php">Produtos</a>
+                            <a class="dropbtn" href="produtos.php" class="<?=$menu_produtos_ativo?>">Produtos</a>
                             <ul class="dropdown-content">
                                 <li><a href="#">Colchões</a></li>
                                 <li><a href="#">Camas</a></li>
@@ -65,9 +72,9 @@
                                 <li><a href="#">Acessórios</a></li>
                             </ul>
                         </li>
-                        <li><a href="lojas.php">Lojas</a></li>
-                        <li><a href="franquias.php">Franquias</a></li>
-                        <li><a href="contatos.php">Contato</a></li>
+                        <li><a href="lojas.php" class="<?=$menu_lojas_ativo?>">Lojas</a></li>
+                        <li><a href="franquias.php" class="<?=$menu_franquias_ativo?>">Franquias</a></li>
+                        <li><a href="contato.php" class="<?=$menu_contato_ativo?>">Contato</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </nav>
