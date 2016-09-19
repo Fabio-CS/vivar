@@ -24,7 +24,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
         <script type="text/javascript" src="assets/js/jquery.js"></script>
-        
+ 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css">
 
@@ -64,7 +64,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="empresa.php" class="<?=$menu_empresa_ativo?>">Empresa</a></li>
                         <li class="dropdown">
-                            <a class="dropbtn" href="produtos.php" class="<?=$menu_produtos_ativo?>">Produtos</a>
+                            <a class="dropbtn <?=$menu_produtos_ativo?>" href="produtos.php" >Produtos</a>
                             <ul class="dropdown-content">
                                 <li><a href="#">Colchões</a></li>
                                 <li><a href="#">Camas</a></li>

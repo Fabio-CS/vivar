@@ -1,12 +1,5 @@
 <?php include 'header.php' ?>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12">
-
-        </div>
-    </div>
-</div>
 <div id="banners" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -106,7 +99,7 @@
         </div>
         <div class="col-sm-6">
             <h3>NOSSAS LOJAS</h3>
-            <div id="nossas_lojas">
+            <div id="nossas_lojas" class="index_lojas">
                 <ul class="nav nav-tabs tab-cidades">
                     <li class="active"><a data-toggle="tab" href="#porto_alegre">PORTO ALEGRE</a></li>
                     <li><a data-toggle="tab" href="#novo_hamburgo">NOVO HAMBURGO</a></li>
@@ -139,7 +132,7 @@
                                 </div>
                             </div>
                             <div id="iguatemi" class="tab-pane fade">
-                                <img class="imagem-loja" width="220" height="260" src="assets/images/foto_country.jpg"/>
+                                <img class="imagem-loja" width="220" height="260" src="assets/images/foto_iguatemi.jpg"/>
                                 <iframe class="mapa-loja" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13817.83291592536!2d-51.1620289!3d-30.0237091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9477cb21ba5c4f62!2sShopping+Center+Iguatemi+Porto+Alegre!5e0!3m2!1spt-BR!2sbr!4v1473831218698" width="220" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
                                 <div style="clear: both"></div>
                                 <div class="endereco-loja">
